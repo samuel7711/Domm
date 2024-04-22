@@ -10,28 +10,36 @@ document.body.appendChild(titulo);
 
 const parra1 = document.createElement("div")
 parra1.appendChild(crearparrafo("USUARIO"));
-document.body.appendChild(parra1);
+titulo.appendChild(parra1);
 const ent1 = document.getElementById("put");
+parra1.appendChild(ent1);
 
 const parra2 = document.createElement(div)
 parra2.appendChild(crearparrafo("CONSTRASEÑA"));
-document.body.appendChild(parra2);
+titulo.appendChild(parra2);
 const ent2 = document.getElementById("put");
+parra2.appendChild(ent2);
 
 const parra3 = document.createElement("div")
 parra3.appendChild(crearparrafo("CORREO ELECTRONICO"));
-document.body.appendChild(parra3);
+titulo.appendChild(parra3);
 const ent3 = document.getElementById("put");
+parra3.appendChild(ent3);
+
 
 const parra4 = document.createElement("div")
 parra4.appendChild(crearparrafo("NOMBRE"));
-document.body.appendChild(parra4);
+titulo.appendChild(parra4);
 const ent4 = document.getElementById("put");
+parra4.appendChild(ent4);
+
 
 const parra5 = document.createElement("div")
 parra5.appendChild(crearparrafo("APELLIDO"));
-document.body.appendChild(parra5);
+titulo.appendChild(parra5);
 const ent5 = document.getElementById("put");
+parra5.appendChild(ent5);
+
 
 const bot2 = document.createElement("button");
 bot2.appendChild(crearbotono("REGISTRARSE"));
